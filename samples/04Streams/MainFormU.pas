@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
-  Vcl.AppEvnts, System.Threading, LoggerPro.GlobalLogger, Redis.Commons, Redis.Client, Redis.Values, Redis.NetLib.Indy;
+  Vcl.AppEvnts, System.Threading, {LoggerPro.GlobalLogger,} Redis.Commons, Redis.Client, Redis.Values, Redis.NetLib.Indy;
 
 type
   TMainForm = class(TForm)
